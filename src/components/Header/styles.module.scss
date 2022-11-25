@@ -6,6 +6,9 @@
 
 }
 .nav {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
   a {
     color: var(--gray-800);
     text-decoration: none;
