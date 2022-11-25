@@ -6,6 +6,7 @@ import { Contact } from "./pages/contact";
 import { LisCustomers } from "./pages/list-customers";
 import { Login } from "./pages/login";
 import { SignIn } from "./pages/signIn";
+import { UpdateContact } from "./pages/update-contact";
 
 export function RoutesPages() {
   return (
@@ -18,6 +19,10 @@ export function RoutesPages() {
             <Route path="/cadastro" element={<SignIn />} />
             <Route path="/entrar" element={<Login />} />
             <Route path="/dashboard/customer" element={<LisCustomers />} />
+            <Route
+              path="/dashboard/update/customer"
+              element={<UpdateContact />}
+            />
           </Route>
         </Routes>
       </BrowserRouter>
