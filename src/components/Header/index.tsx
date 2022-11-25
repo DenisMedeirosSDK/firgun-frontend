@@ -12,6 +12,7 @@ export function Header() {
         <a href="/cadastro">Criar conta</a>
         <a href="/entrar">Entrar</a>
         <a href="/dashboard/customer">Listagem de clientes</a>
+        <a href="/dashboard/update/customer">Atualizar cliente</a>
       </nav>
     </div>
   );
